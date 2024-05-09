@@ -1,0 +1,43 @@
+# Miniproject
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible"content="IE = edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet"href="style.css">
+    <title></title>
+</head>       
+ <body>
+
+     <nav>
+        
+       <div class="logo">
+            <a href="#" class="navbar -brand">ReuseMail</a>
+        </div>
+        <ul class="nav navbar-nav navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">signup</a></li>
+            <li><a href="#">login</a></li>
+
+        </ul>
+        <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+         
+
+    </nav>
+
+</body>    
+<script>
+    const menu = document.querySelector('.menu')
+    const menuList = document.querySelector('nav ul')
+    menu.addEventListener('click',()=>{
+        menuList.classList.toggle('showmenu')
+    })
+</script>
+</html>
